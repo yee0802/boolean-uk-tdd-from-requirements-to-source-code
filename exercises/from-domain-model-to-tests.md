@@ -13,10 +13,10 @@ I want to search a list of all cohorts by a cohort name.
 
 Here's a **domain model** based on the above **user story**
 
-Methods | Inputs | Scenario | Outputs
------- | ------ | ------ | -----
- searchByCohortName(cohortList, cohortName) | cohortList(@String[]), cohortName(@String) | If cohort name is in array | true
- | | If cohort name is not in array | false
+| Methods | Inputs | Scenario | Outputs
+| ------ | ------ | ------ | -----
+| searchByCohortName(cohortList, cohortName) | cohortList(@String[]), cohortName(@String) | If cohort name is in array | true
+| | | If cohort name is not in array | false
 
 Your teacher will demonstrate creating tests based on this domain model, following the 3 stage process
 1. **Setup**
@@ -61,12 +61,12 @@ So that I can evaluate my shopping habits,
 I'd like to see a receipt that includes line items (quantity, name, cost) and the total cost.
 ```
 
-Methods | Inputs | Data | Scenario | Outputs
------- | ------ | ------ | ----- | -----
-totalCost(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @Number
-| | |If no items | @Number (0)
-createReceipt(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @String
-| | |If no items | @String
+| Methods | Inputs | Data | Scenario | Outputs
+| ------ | ------ | ------ | ----- | -----
+| totalCost(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @Number
+| | | |If no items | @Number (0)
+| createReceipt(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @String
+| | | |If no items | @String
 
 Create a set of tests based on your domain model. The **user stories** and a possible **domain model** have been provided for you to use.
 

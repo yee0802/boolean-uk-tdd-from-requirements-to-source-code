@@ -16,6 +16,6 @@ The output of the TDD process is both source code and a test suite that has codi
 
 ### Exercises
 
-1. [From user stories to domain model](./docs/from-user-stories-to-domain-model.md)
-2. [From domain model to tests](./docs/from-domain-model-to-tests.md)
-3. [From tests to source code](./docs/from-tests-to-source-code.md)
+1. [From user stories to domain model](./exercises/from-user-stories-to-domain-model.md)
+2. [From domain model to tests](./exercises/from-domain-model-to-tests.md)
+3. [From tests to source code](./exercises/from-tests-to-source-code.md)

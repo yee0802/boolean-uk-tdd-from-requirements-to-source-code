@@ -19,10 +19,10 @@ I want to search a list of all cohorts by a cohort name.
 And here is one possible functional representation of that story.
 _'@' denotes a type._
 
-Methods | Inputs | Scenario | Outputs
------- | ------ | ------ | -----
- searchByCohortName(cohortList, cohortName) | cohortList(@String[]), cohortName(@String) | If cohort name is in array | true
- | | If cohort name is not in array | false
+| Methods | Inputs | Scenario | Outputs
+| ------ | ------ | ------ | -----
+| searchByCohortName(cohortList, cohortName) | cohortList(@String[]), cohortName(@String) | If cohort name is in array | true
+| | | If cohort name is not in array | false
 
 
 > **Question**: evaluate this representation - what assumptions are being made and what information do you need to do differently?

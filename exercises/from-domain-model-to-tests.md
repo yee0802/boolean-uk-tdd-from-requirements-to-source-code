@@ -76,6 +76,11 @@ Create a set of tests based on your domain model. The **user stories** and a pos
 - [ ] Create your tests and watch them fail by running `npx jasmine`
 - [ ] **Remember! Do not write source code yet!**
 
+### Further
+
+- [ ] explain how the `#describe()` and `#it()` methods work
+- [ ] explain how Jasmine finds the test code to execute
+
 ### Resources
 
 - [Jasmine Setup](https://jasmine.github.io/setup/nodejs.html)

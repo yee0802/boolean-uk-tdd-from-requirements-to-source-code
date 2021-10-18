@@ -6,6 +6,7 @@
 - Explain how TDD relates to the software development lifecycle
 - Setup and use a test framework to help test code
 - Use the Red Green Refactor loop to develop code
+- Test-drive a program with multiple functions with unit tests
 
 ### Intro
 **Test-driven development** is a development process to help align work done with requirements, improve quality of code, and allow for easier maintenance. It focuses on confirming and then codifying the behaviour of code before it is written.

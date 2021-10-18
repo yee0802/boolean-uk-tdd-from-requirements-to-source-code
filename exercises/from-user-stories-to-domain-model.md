@@ -21,8 +21,8 @@ _'@' denotes a type._
 
 Methods | Inputs | Scenario | Outputs
 ------ | ------ | ------ | -----
- searchByCohortName(cohortList, searchString) | cohortList(@Cohort[]) | If cohort name is in array | true
- | searchString(@String)| If cohort name is not in array | false
+ searchByCohortName(cohortList, cohortName) | cohortList(@String[]), cohortName(@String) | If cohort name is in array | true
+ | | If cohort name is not in array | false
 
 
 > **Question**: evaluate this representation - what assumptions are being made and what information do you need to do differently?

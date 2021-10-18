@@ -15,8 +15,8 @@ Here's a **domain model** based on the above **user story**
 
 Methods | Inputs | Scenario | Outputs
 ------ | ------ | ------ | -----
-searchByCohortName(cohortList, searchString) | cohortList(@Cohort[]) | If cohort name is in array | true
-| searchString(@String)| If cohort name is not in array | false
+ searchByCohortName(cohortList, cohortName) | cohortList(@String[]), cohortName(@String) | If cohort name is in array | true
+ | | If cohort name is not in array | false
 
 Your teacher will demonstrate creating tests based on this domain model, following the 3 stage process
 1. **Setup**

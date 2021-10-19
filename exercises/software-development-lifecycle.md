@@ -2,3 +2,5 @@
 
 
 ![](../_images/SDLC-methodology.png)
+
+![](../_images/agileLifecycleScrum.jpeg)

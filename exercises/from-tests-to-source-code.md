@@ -52,9 +52,9 @@ module.exports = cohortSearch
 Methods | Inputs | Data | Scenario | Outputs
 ------ | ------ | ------ | ----- | -----
 totalCost(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @Number
-| | |If no items | @Number (0)
+| | | |If no items | @Number (0)
 createReceipt(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @String
-| | |If no items | @String
+| | | |If no items | @String
 
 - [ ] Use the tests based on the above domain model
 - [ ] Run your tests and watch them fail (Red)

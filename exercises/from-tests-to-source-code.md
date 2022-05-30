@@ -10,43 +10,6 @@
 
 Your teacher will demonstrate the **Red, Green, Refactor** loop by watching the tests fail and then writing source code to make the tests pass.
 
-```js
-// TEST CODE
-// spec/cohortSearch.spec.js
-const cohortSearch = require('../src/cohortSearch.js')
-
-describe("Cohort Search", () => {
-  it("returns cohort name if found", () => {
-    // setup
-    const cohortList = ["class 1", "class 2"]
-    // execute
-    const result = cohortSearch.searchByCohortName(cohortList, "class 1")
-    // verify
-    expect(result).toEqual(true)
-  })
-
-  it("returns cohort name if not found", () => {
-    // setup
-    const cohortList = ["class 1", "class 2"]
-    // execute
-    const result = cohortSearch.searchByCohortName(cohortList, "class 3")
-    // verify
-    expect(result).toEqual(false)
-  })
-})
-```
-
-```js
-// SOURCE CODE
-// src/cohortSearch.js
-
-const cohortSearch = (list, name) => {
- // to be implemented
-}
-
-module.exports = cohortSearch
-```
-
 ### Instructions
 
 Methods | Inputs | Data | Scenario | Outputs
@@ -56,7 +19,7 @@ totalCost(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String),
 createReceipt(basket) | basket(@Item[]) | Item(@Object), properties: _name(@String), price(@Number), quantity(@Number))_ | If there are items | @String
 | | | |If no items | @String
 
-- [ ] Use the tests based on the above domain model
+- [ ] Create tests in the `spec/` directory based on the above domain model
 - [ ] Run your tests and watch them fail (Red)
 - [ ] Make the tests pass as simply and quickly as you can (Green)
 - [ ] Take the opportunity to make your code better (Refactor)

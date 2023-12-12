@@ -1,9 +1,14 @@
 // SOURCE CODE
 
-const cohortSearch = (list, name) => {
+const totalCost = (basket) => {
   // to be implemented
-}
+};
+
+const createReceipt = () => {
+  // to be implemented
+};
 
 module.exports = {
-  cohortSearch
-}
+  totalCost,
+  createReceipt,
+};

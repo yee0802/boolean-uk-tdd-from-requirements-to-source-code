@@ -50,7 +50,7 @@ describe("Create Receipt", () => {
     const result = createReceipt(basket);
 
     expect(result).toEqual(
-      "2 Apples at £1.75 each, 1 pear at £2 each. Total: £5.5"
+      "2 Apples at £1.75 each -- 1 Pear at £2 each --- Total: £5.5"
     );
   });
 });
